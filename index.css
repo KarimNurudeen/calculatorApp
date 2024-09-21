@@ -1,0 +1,27 @@
+body {
+    background-image: url('/Users/karimnurudeen/Downloads/image.avif');
+    /* Replace with the path to your calculator image */
+    background-size: cover;
+    /* Ensures the image covers the entire background */
+    background-position: center;
+    /* Centers the background image */
+    color: white;
+    /* Optional: Change text color for bettercontrast */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(76, 175, 80, 0.8);
+    /* Semi-transparent background for better visibility */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(69, 160, 73, 0.8);
+    /* Semi-transparent hover effect */
+}
